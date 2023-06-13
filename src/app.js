@@ -1,8 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
-const connectDB = require('./db');
+const connectDB = require('./db/conn');
 const authRoutes = require('./routes/auth');
 const itemRoutes = require('./routes/item');
 
